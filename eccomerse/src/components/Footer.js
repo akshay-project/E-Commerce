@@ -1,9 +1,19 @@
 import React from 'react'
-
+import { Container, Row, Col } from 'react-bootstrap';
 const Footer = () => {
-  return (
-    <footer>Footer</footer>
-  )
+    return (
+        <footer>
+            <Container>
+                <Row>
+                    {/* py-3 Padding on Y-Axis */}
+                    <Col className='text-center py-3'>
+                        CopyRight &copy; ProShop
+                    </Col>
+                </Row>
+            </Container>
+
+        </footer>
+    )
 }
 
 export default Footer
